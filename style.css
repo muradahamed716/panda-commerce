@@ -59,14 +59,13 @@
   padding: 10px 20px;
   border-radius: 10px;
 }
-@media (min-width: 768px) {
-  .carousel-caption {
-    position: static;
-  }
-}
+
 @media (min-width: 768px) and (max-width: 990px) {
   .catagories img {
     padding-right: 20px;
+  }
+  .carousel-caption {
+    position: static;
   }
 }
 #shoes .card {
@@ -80,4 +79,10 @@
 .footer-style {
   background-color: #feeae9;
   height: 300px;
+}
+.subscribe h6 {
+  color: #707070;
+}
+footer p {
+  text-align: center;
 }
