@@ -1,0 +1,83 @@
+.box {
+  width: 220px;
+  height: 26px;
+  border: 1px solid #707070;
+  margin-top: 37px;
+}
+.flex-grow {
+  flex-grow: 1;
+}
+.container {
+  margin-bottom: 100px;
+}
+.bg-car {
+  background-color: #feeae9;
+}
+.carousel-caption .pricing {
+  color: #ff1973;
+}
+.carousel-caption {
+}
+.carousel-caption h1 {
+  color: black;
+}
+.carousel-caption p {
+  color: #707070;
+}
+.padding_1 {
+  padding-top: 10%;
+}
+.buynow_button {
+  background-image: linear-gradient(to bottom, #ff589b 0%, #ff136f 100%);
+  border: none;
+  color: white;
+  border-radius: 8px;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+.caption2 {
+  bottom: 25%;
+}
+.cat1 {
+  background-color: rgb(151, 151, 23);
+}
+.cat2 {
+  background-color: #ac426a;
+}
+.cat3 {
+  background-color: #584aa8;
+}
+.catagories img {
+  width: 100px;
+}
+.catagories h1 {
+  color: white;
+}
+.cat1,
+.cat2,
+.cat3 {
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+@media (min-width: 768px) {
+  .carousel-caption {
+    position: static;
+  }
+}
+@media (min-width: 768px) and (max-width: 990px) {
+  .catagories img {
+    padding-right: 20px;
+  }
+}
+#shoes .card {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  border: none;
+}
+#backpack .card {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  border: none;
+}
+.footer-style {
+  background-color: #feeae9;
+  height: 300px;
+}
